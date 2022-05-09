@@ -25,7 +25,7 @@ public class BeautifulArrangement {
         }
 
         for (int i = start; i > 0; i--) {
-            //
+            //交换start i位置
             int temp = nums[start];
             nums[start] = nums[i];
             nums[i] = temp;
@@ -35,6 +35,7 @@ public class BeautifulArrangement {
                 DFS(nums, start - 1);
             }
 
+            //交换i start 位置
             temp = nums[i];
             nums[i] = nums[start];
             nums[start] = temp;
