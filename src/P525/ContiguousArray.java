@@ -32,7 +32,7 @@ public class ContiguousArray {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{0,1,0};
+        int[] nums = new int[]{0, 1, 0};
         System.out.println(findMaxLength(nums));
     }
 }

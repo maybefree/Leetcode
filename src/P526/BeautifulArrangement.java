@@ -2,6 +2,7 @@ package P526;
 
 public class BeautifulArrangement {
     public static int count = 0;
+
     public static int countArrangement(int n) {
 
         if (n == 0) {
